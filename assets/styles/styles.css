@@ -35,6 +35,7 @@ main{
 .bg-orange{
     background-color:#F56600;
     padding: .5rem;
+    margin: 2rem 0;
 }
 .white-text{
     color: white;
