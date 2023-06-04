@@ -2,6 +2,7 @@ body {
   box-sizing: border-box;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #E9EDEE;
 }
 h1{
     font-size: 2rem;
@@ -56,17 +57,7 @@ main{
     justify-content: center;
     align-items: center;
 }
-.gallery {
-  background-color: #ffffff;
-}
-.gallery-img {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 2rem;
-  height: 40vw;
-  width: 20vw;
-}
+
 .adapt-image {
   background-repeat: no-repeat;
   background-size:auto;
@@ -83,6 +74,55 @@ main{
 .gift-card h1, .gift-card p{
     
 }
+/* STILI GALLERIA--------------------------------------------------------------------------- */
+.gallery {
+  background-color: #ffffff;
+  padding: 2rem 2rem 1rem 2rem;
+  margin: 2rem 0;
+  gap: 2rem;
+  flex-wrap: wrap;
+
+}
+.gallery-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 1rem;
+  height: 27vw;
+  width: 20vw;
+  box-shadow: 10px 4px 10px #DEDCE2;
+}
+.intestazione-galleria{
+  flex-basis: 100%;
+  flex-shrink: 0;
+}
+.intestazione-galleria h2{
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  font-weight: 600;
+  display: inline-block;
+}
+.intestazione-galleria p{
+  display: inline-block;
+  margin-left: 1.3rem;
+}
+.intestazione-galleria a{
+  font-size: 1.2rem;
+  color:#18575E;
+  text-decoration: none;
+  font-weight: bold;
+  
+}
+/* immagini galleria */
 .n1{
     background-image: url(../img/img_1.jpg);
+}
+.n2{
+  background-image: url(../img/img_2.jpg);
+}
+.n3{
+  background-image: url(../img/img_3.jpg);
+}
+.n4{
+  background-image: url(../img/img_4.jpg);
 }
