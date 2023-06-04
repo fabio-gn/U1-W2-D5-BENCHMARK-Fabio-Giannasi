@@ -22,7 +22,7 @@ h2{
 }
 a{
   font-size: 1.2rem;
-  color:#18575E;
+  color:#115D69;
   text-decoration: none;
   font-weight: bold;
 }
@@ -182,3 +182,14 @@ main{
   font-weight: bold;
 }
 /* footer------------------------------------------------------------------------------------- */
+footer{
+  background-color: #222F3F;
+  padding: 5.5vw 0;
+}
+.logo-wrapper{
+  width: fit-content;
+}
+footer img{
+  display: inline-block;
+  height: 5vw;
+}
