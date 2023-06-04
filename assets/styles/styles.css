@@ -90,6 +90,10 @@ header {
   gap: 1.5rem;
   color: white;
 }
+#navbar a{
+  color:#FDFFFD;
+  font-weight:100;
+}
 main{
   margin: 2rem;
 }
@@ -165,3 +169,16 @@ main{
 .img2{
   background-image: url(../img/img_10.png);
 }
+
+/* bo-back link-------------------------------------- */
+.go-back-link{
+  background-color: #364759;
+  padding: 1rem;
+}
+.go-back-link a{
+  color: white;
+  text-decoration-line: underline;
+  text-align: center;
+  font-weight: bold;
+}
+/* footer------------------------------------------------------------------------------------- */
