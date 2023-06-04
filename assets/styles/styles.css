@@ -1,0 +1,88 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-size: 2rem;
+    font-weight: bold;
+}
+header {
+  background-color: #222f3f;
+}
+#logo {
+  height: 3.5rem;
+  margin: 1rem 0 1rem 2rem;
+}
+#navbar {
+  background-color: #364759;
+  padding: .6rem 1rem .6rem 2rem;
+}
+#navbar ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  gap: 1.5rem;
+  color: white;
+}
+#navbar ul li {
+}
+main{
+    margin: 2rem;
+}
+.bg-orange{
+    background-color:#F56600;
+    padding: .5rem;
+}
+.white-text{
+    color: white;
+}
+.centered-text {
+  text-align: center;
+}
+.centered {
+  width: fit-content;
+  margin: 0 auto;
+}
+.flex-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.gallery {
+  background-color: #ffffff;
+}
+.gallery-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 2rem;
+  height: 40vw;
+  width: 20vw;
+}
+.adapt-image {
+  background-repeat: no-repeat;
+  background-size:auto;
+  background-position: center;
+  background-size: cover;
+  
+}
+.gift-card{
+    height: 10vw;
+    background-image: url(../img/bg-image.png);
+    gap: 1rem;
+    
+}
+.gift-card h1, .gift-card p{
+    
+}
+.n1{
+    background-image: url(../img/img_1.jpg);
+}
